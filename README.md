@@ -32,7 +32,8 @@ Since we had replaced the Rapsberry Pi camera with the phone camera, we needed t
 **Phone-to-Pi Communication:** We had to determine a system to send information to pi and get information back. We considered using bluetooth and an online database but ultimately decided to use HTTP protocols. Considerable thought went into organizing into which device ran what kind of processes and how to share information between the phone and pi. 
 
 **Expo Development:** No experience with React-Native. Rendering code changes would sometimes hang, so app development was not as ideally productive. 
-###Hardware
+
+### Hardware
 **Fitting Components:** Because all of the internal components of the enclosure must have slots and notches on the outer in order to fit properly, many of the internal structures that had to be swapped or structures that needed to be added in later for internal support had to be glued in making some areas less structurally stable than we would like.
 
 **Stepper Motor Belt Tension:** The tension required for the stepper belts to drive properly was actually a bit too much for our structure to handle and some internal pieces broke off from the main frame due to tension forces. We fixed this by using zip ties instead of glue for a much stronger belt support structure.
