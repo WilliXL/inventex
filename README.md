@@ -26,7 +26,7 @@ We started with simple color detection, differentiating between LEDs of differen
 Since we had replaced the Rapsberry Pi camera with the phone camera, we needed to transfer the image to the Raspberry Pi for vision processing. HTTP requests to send the image from the phone to the Raspberry Pi. HTTP requests to send retrieval signals to the Raspberry Pi.
 
 ## Challenges we ran into
-###Software
+### Software
 **Vision processing:** Raspberry Pi camera is difficult to focus without a specialized tool. Resistor color codes had to be fine-tuned (HSV values). Resistor colors were also difficult to differentiate from each other and from the resistor itself, being heavily influenced by the color of the light source.
 
 **Phone-to-Pi Communication:** We had to determine a system to send information to pi and get information back. We considered using bluetooth and an online database but ultimately decided to use HTTP protocols. Considerable thought went into organizing into which device ran what kind of processes and how to share information between the phone and pi. 
